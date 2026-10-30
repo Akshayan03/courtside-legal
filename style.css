@@ -1,0 +1,14 @@
+:root { --bg: #FAF5EE; --surface: #FFFDF9; --ink: #1E140D; --espresso: #24160E; --orange: #F2742B; --orange-ink: #B4501A; --secondary: #6B5E55; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+header { background: radial-gradient(120% 140% at 50% 0%, #412818 0%, #24160E 55%, #110A06 100%); color: #F6EDE1; padding: 40px 20px 32px; }
+header .wrap, main { max-width: 720px; margin: 0 auto; }
+header img { width: 72px; height: 72px; border-radius: 16px; vertical-align: middle; margin-right: 14px; }
+header h1 { display: inline-block; vertical-align: middle; margin: 0; font: 800 34px/1.2 ui-rounded, -apple-system, sans-serif; letter-spacing: -0.5px; }
+header p { color: #CDBFB2; margin: 12px 0 0; }
+main { padding: 12px 20px 48px; }
+h2 { font: 700 23px/1.3 ui-rounded, -apple-system, sans-serif; margin-top: 36px; }
+.eyebrow { color: var(--orange-ink); font-size: 13px; font-weight: 700; letter-spacing: 1.3px; text-transform: uppercase; }
+.card { background: var(--surface); border: 1px solid rgba(30,20,13,.1); border-radius: 18px; padding: 4px 22px; margin: 18px 0; }
+a { color: var(--orange-ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+footer { color: var(--secondary); font-size: 14px; border-top: 1px solid rgba(30,20,13,.1); margin-top: 40px; padding-top: 16px; }
