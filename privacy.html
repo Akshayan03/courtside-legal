@@ -11,37 +11,53 @@
 <body>
 <header><div class="wrap">
   <img src="icon.png" alt=""><h1>Courtside</h1>
-  <p>Privacy Policy · effective 30 October 2026</p>
+  <p>Privacy Policy · effective 31 October 2026</p>
 </div></header>
 <main>
   <p class="eyebrow">The short version</p>
   <div class="card">
-    <p><strong>Courtside collects no personal data.</strong> There is no account, no analytics, no advertising and no
-    tracking. The teams and players you follow and your alert settings stay on your iPhone.</p>
+    <p><strong>Courtside collects nothing that identifies you.</strong> There is no account, no analytics, no
+    advertising and no tracking. To send you game alerts and keep Live Activities up to date, Courtside's push service
+    keeps your iPhone's push tokens and the teams and games you follow, under a random id that isn't linked to you.</p>
   </div>
 
   <h2>What stays on your device</h2>
-  <p>The teams and players you follow, your alert choices, which team each widget shows, and saved copies of recently
-  loaded scores and stats (so the app works offline). None of it is sent to the developer or anyone else. Deleting the
-  app deletes all of it.</p>
+  <p>The players you follow, which team each widget shows, and saved copies of recently loaded scores and stats (so
+  the app works offline). None of it is sent to the developer or anyone else. Deleting the app deletes all of it.</p>
+
+  <h2>Alerts and Live Activities (push service)</h2>
+  <p>Courtside runs a small push service so alerts (tip-off, close games, finals, and the optional quarter and
+  big-run alerts) and Live Activity scores reach your iPhone when the app is closed. For that, the app sends it:</p>
+  <ul>
+    <li>a random id made up on your iPhone for this install (not your name, Apple ID, email, phone number, or your
+    device's hardware or advertising identifier);</li>
+    <li>the push tokens Apple's push service gives the app (one for alerts, one per Live Activity, and one that lets
+    a Live Activity start at tip-off);</li>
+    <li>which teams and games you follow, which alerts you switched on, and whether Live Activities may start by
+    themselves.</li>
+  </ul>
+  <p>It is used only to send those alerts and Live Activity updates, through Apple's push service. It is not used for
+  tracking, advertising or analytics, not linked to your identity, and not shared or sold. IP addresses are not
+  stored. The service runs on Cloudflare Workers, which processes requests on the developer's behalf.</p>
+  <p>How long it's kept: tokens Apple reports as no longer valid are deleted straight away; a Live Activity's token is
+  deleted when the game ends (12 hours at most); everything for an install is deleted after 60 days without the app
+  being opened. Turning off notifications in iOS Settings stops alerts; deleting the app stops everything and its data
+  is then deleted within 60 days.</p>
 
   <h2>When the app goes online</h2>
   <p>To show scores, Courtside downloads public data from ESPN's servers (site.api.espn.com and related ESPN addresses):
   scoreboards, game details, standings, team and player stats, and headlines. When you search, the words you type are
   sent to ESPN's search to find players. ESPN receives these requests and your device's IP address, as any website
-  would; Courtside sends no identifier of you or your device. When you open a news story, it opens ESPN's web page
-  inside the app; ESPN's own privacy policy applies to that page.</p>
-
-  <h2>Notifications</h2>
-  <p>Alerts are created on your iPhone by the app itself. There is no push server, and no notification token is sent
-  anywhere.</p>
+  would; Courtside sends no identifier of you or your device to ESPN. When you open a news story, it opens ESPN's web
+  page inside the app; ESPN's own privacy policy applies to that page. Courtside shows no team logos, player photos or
+  betting odds.</p>
 
   <h2>Children</h2>
-  <p>Courtside collects no data from anyone, including children.</p>
+  <p>Courtside collects no personal data from anyone, including children.</p>
 
   <h2>Your choices</h2>
-  <p>Unfollow teams or players and turn alerts off in the app at any time, or delete the app to remove everything it
-  stored.</p>
+  <p>Unfollow teams, players or games and turn alerts off in the app at any time, turn notifications or Live Activities
+  off in iOS Settings, or delete the app.</p>
 
   <h2>Changes and contact</h2>
   <p>If this policy changes, the new version will be posted on this page with a new effective date. Questions:
